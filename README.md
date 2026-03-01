@@ -1,16 +1,16 @@
-# Tópicos Especias de Informática 
+# Tópicos Especias de Informática🐋
 
 Disciplina ministrada pelo professor Alexandre Garcia de Oliveira
 
 Lattes: https://lattes.cnpq.br/3197525814082326
 
-# 📘 Programação Funcional em Haskell
+## Programação Funcional em Haskell
 
-## Aulas 1 e 2 - Fundamentos Teóricos e Práticos
+### Aulas 1 e 2 - Fundamentos Teóricos e Práticos
 
-## 1. Fundamentação Teórica
+### 1. Fundamentação Teórica
 
-### 1.1 Paradigma Funcional
+#### 1.1 Paradigma Funcional
 
 Na programação funcional:
 
@@ -27,7 +27,7 @@ Diferentemente do paradigma imperativo:
 
 ---
 
-### 1.2 Funções Puras
+#### 1.2 Funções Puras
 
 Uma função é considerada **pura** quando:
 
@@ -52,7 +52,7 @@ Significa: recebe um inteiro e retorna um inteiro.
 
 ---
 
-### 1.3 Sistema de Tipos
+#### 1.3 Sistema de Tipos
 
 Haskell utiliza **tipagem estática e forte**.
 
@@ -78,9 +78,9 @@ soma' (x, y) = x + y
 
 ---
 
-## 2. Estruturas de Dados
+### 2. Estruturas de Dados
 
-### 2.1 Listas
+#### 2.1 Listas
 
 Características:
 
@@ -103,7 +103,7 @@ tabuada7 = [7, 14 .. 70]
 
 ---
 
-### 2.2 Avaliação Preguiçosa (Lazy Evaluation)
+#### 2.2 Avaliação Preguiçosa (Lazy Evaluation)
 
 Haskell avalia expressões **apenas quando necessário**.
 
@@ -123,9 +123,9 @@ Essa característica permite:
 
 ---
 
-## 3. Manipulação de Listas
+### 3. Manipulação de Listas
 
-### 3.1 Funções Básicas
+#### 3.1 Funções Básicas
 
 Algumas funções padrão:
 
@@ -145,7 +145,7 @@ pegarDuasReverso xs = take 2 (reverse xs)
 
 ---
 
-## 4. Compreensão de Listas (List Comprehension)
+### 4. Compreensão de Listas (List Comprehension)
 
 Permite gerar listas com base em expressões e filtros.
 
@@ -170,7 +170,7 @@ Interpretação:
 
 ---
 
-## 5. Produto Cartesiano e Tuplas
+### 5. Produto Cartesiano e Tuplas
 
 Simulação de combinações possíveis de dois dados:
 
@@ -183,7 +183,7 @@ Aqui são geradas todas as combinações possíveis entre dois conjuntos.
 
 ---
 
-## 6. Listas vs Tuplas
+### 6. Listas vs Tuplas
 
 | Característica     | Lista      | Tupla                  |
 | ------------------ | ---------- | ---------------------- |
