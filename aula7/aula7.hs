@@ -38,7 +38,7 @@ temos que (5 - 7) - 9 =/= 5 - (7 - 9).
 
 -}
 
--- newtupe eh uma utilizacao para tipos com um construtor de um tipo só
+-- newtype eh uma utilizacao para tipos com um construtor de um tipo só
 newtype Or = Or Bool deriving Show
 
 instance Semigroup Or where
